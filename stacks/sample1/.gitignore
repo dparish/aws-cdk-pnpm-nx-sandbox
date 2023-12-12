@@ -1,0 +1,20 @@
+.idea
+.aws-sam
+**/dist
+**/ignore
+.env.json
+.DS_Store
+local.toml
+**/*.log
+**/log
+
+# dotenv, dotenv-rails
+**/.env
+**/.env.local
+
+# Ignore node_modules
+node_modules/
+
+# CDK assets
+.cdk.staging
+cdk.out
