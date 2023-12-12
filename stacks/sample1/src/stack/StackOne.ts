@@ -10,8 +10,8 @@ export class StackOne extends Stack {
 
     new Function(this, 'fn1', {
       handler: 'index.one',
-      runtime: Runtime.NODEJS_18_X,
-      code: Code.fromAsset(`${workingDir}`),
+      runtime: Runtime.NODEJS_20_X,
+      code: Code.fromAsset(`${workingDir}../../lambdas`),
     })
   }
 }
